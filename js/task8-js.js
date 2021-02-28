@@ -29,7 +29,7 @@ destroyBtn.addEventListener("click", () => {
   const childDivs = mainDiv.childNodes;
   for (let x = 0; x < childDivs.length; x += 1) {
     let child = childDivs[x];
-    console.log(child.getAttribute("style"))
-    // child.remove();
+    // console.log(child.getAttribute("style"))
+    child.remove();
   }
 });
