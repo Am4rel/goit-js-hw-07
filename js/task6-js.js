@@ -1,4 +1,5 @@
 const inputBox = document.getElementById("validation-input");
+
 inputBox.addEventListener("focusout", (event) => {
   const inputLength = event.currentTarget.value.length;
   const validInputLength = parseInt(inputBox.getAttribute("data-length"));
@@ -9,5 +10,5 @@ inputBox.addEventListener("focusout", (event) => {
   } else {
     inputBox.classList.add("valid");
     inputBox.classList.remove("invalid");
-  }
+  };
 });
