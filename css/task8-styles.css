@@ -1,0 +1,11 @@
+div#boxes > div,
+div#controls {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div#controls {
+  margin-bottom: 20px;
+}
